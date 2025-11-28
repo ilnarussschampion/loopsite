@@ -98,3 +98,68 @@ main{
 .man-woman{
     background: linear-gradient(90deg, #F9F6F1 0%, #F9F6F1 50%, #F9E0E0 50%, #F9E0E0 100%);
 }
+
+
+/*----------header-------*/
+
+header{
+    min-height: 120px;
+    background-color: #F9F6F1;
+}
+
+.header-menu{
+    min-height: 90px;
+}
+
+.section_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90px;
+}
+
+
+
+.section_wrapper menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.mainmenu_list{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    
+}
+
+.basket_list{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.mainmenu_list a{
+    text-decoration: none;
+    color: #212121;
+}
+
+.mainmenu_list a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+
