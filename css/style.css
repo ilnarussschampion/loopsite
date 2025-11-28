@@ -47,3 +47,54 @@ main{
 .delivery p{
     font-size: 21px;
 }
+
+/*---------section man-women---------*/
+.man-woman .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.man,
+.woman{
+    width: 50%;
+    padding-top: 60px;
+    padding-bottom: 58px;
+}
+
+.man-woman h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.man-woman h2 span{
+    font-weight: normal;
+}
+.man-woman a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D7B399;
+    width: 80px;
+    height: 30px;
+    margin-top: 40px;
+}
+
+.man-woman a:hover,
+.man-woman a:focus{
+    background-color: #ff9950;
+}
+
+.man{
+    background: url(../img/man.png.png) no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.woman{
+    padding-left: 35px;
+    background: url(../img/women.png.png) no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.man-woman{
+    background: linear-gradient(90deg, #F9F6F1 0%, #F9F6F1 50%, #F9E0E0 50%, #F9E0E0 100%);
+}
