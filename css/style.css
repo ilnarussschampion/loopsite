@@ -21,7 +21,7 @@ main{
 .container{
     max-width: 1110px;
     margin: 0 auto;
-    
+    position: relative;
 }
 
 /*---------------------------section delivery--------------------*/
@@ -162,4 +162,84 @@ ul{
     text-decoration-color: black;
 }
 
+/*-------------------------sectoin new---------------------*/
 
+.new .container{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.new__title{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.new__btn{
+    width: 220px;
+    height: 55px;
+    background: #D7B399;
+    color: #FFFFFF;
+    border: none;
+    text-transform: uppercase;
+}
+
+.new__btn:hover,
+.new__btn:focus {
+    background-color: #ff9950;
+    cursor: pointer;
+}
+
+.catalog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;  
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card{
+    border: 1px solid #D7B399;
+    padding: 22px 25px 25px;
+    position: relative;
+}
+
+.card__title{
+    font-size: 14px;
+    font-weight: 600px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 71px;
+    margin-right: 71px;
+}
+
+.card__price{
+    color: #D7B399;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* .card:nth-child(2){
+    position: sticky;
+    top: 200px;
+    left: 300px;
+} */
+
+.bi-bookmark-heart-fill{
+    fill: rgb(253, 103, 103);
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    z-index: 10;
+    cursor: pointer;
+}
+.bi-bookmark-heart-fill:hover,
+.bi-bookmark-heart-fill:focus{
+    fill: red;
+}
+.pict{
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
